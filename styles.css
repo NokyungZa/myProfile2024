@@ -1,44 +1,122 @@
-table.work,th,tr,td{
-    border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
+/* table styles */
+table.work,
+th.work,
+tr.work,
+td.work {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
 caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-  }
-  
-  thead,
-  tfoot {
-    background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
-    text-align: left;
-  }
-  
-  tbody > tr:nth-of-type(even) {
-    background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
-    text-align: right;
-  }
-  
-  tfoot td {
-    font-weight: bold;
-  }
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
 
-  h1, h2{
-    font-family: sans-serif;
-  }
+thead.work,
+tfoot.work {
+  background-color: rgb(228 240 245);
+}
+
+th.work,
+td.work {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type.work {
+  text-align: left;
+}
+
+tbody>tr:nth-of-type(even).work {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th.work {
+  text-align: right;
+}
+
+tfoot td.work {
+  font-weight: bold;
+}
+
+
+/* font style */
+
+h1 {
+  /* font-family: sans-serif; */
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+span,a.font_text{
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+h2{
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 0.2;
+  margin-top: 0;
+}
+
+td.font_text{
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-decoration: underline dotted;
+}
+
+tr.position_text {
+  text-align: left;
+}
+
+
+.font_text_styles{
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* img */
+.cropped-image {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #bbb;
+}
+
+
+img {
+  border-radius: 100%;
+}
+
+
+/* button */
+.button-style {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 12px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+}
